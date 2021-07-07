@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6A1B9A">
+
+    <title>LOGIN</title>
+
+    <link rel="shortcut icon" href="image/logo.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- REGISTRATE -->
+        <div class="container__form container__signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">REGISTRATE</h2>
+                <div class="form__group">
+                    <input type="text" placeholder="Usuario" class="form__input">
+                    <i class="fas fa-user form__icon"></i>
+                </div>
+                <div class="form__group">
+                    <input type="email" class="form__input" placeholder="Correo eletrónico">
+                    <i class="fas fa-envelope form__icon"></i>
+                </div>
+                <div class="form__group">
+                    <i class="fas fa-unlock-alt form__icon"></i>
+                    <input type="password" placeholder="contraseña" class="form__input">
+                </div>
+                <div class="form__group">
+                    <i class="fas fa-unlock-alt form__icon"></i>
+                    <input type="password" placeholder="Confirmar contraseña" class="form__input">
+                </div>
+                <button type="submit" class="form__btn">REGISTRATE</button>
+            </form>
+        </div>
+
+        <!-- INICIAR SESION -->
+        <div class="container__form container__signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">INICIAR SESION</h2>
+                <div class="form__group">
+                    <input type="email" placeholder="Correo electrónico" class="form__input" />
+                    <i class="fas fa-envelope form__icon"></i>
+                </div>
+                <div class="form__group">
+                    <i class="fas fa-unlock-alt form__icon"></i>
+                    <input type="password" placeholder="Contraseña" class="form__input">
+                </div>
+                <button type="submit" class="form__btn">INICIAR SESION</button>
+                <a href="#" class="link">¿ Olvidaste tu contraseña ?</a>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <h3 class="overlay__title">¿ Ya tienes una cuenta ?</h3>
+                    <button class="overlay__btn" id="signIn">INICIAR SESION</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <h3 class="overlay__title">¿ No tienes una cuenta ?</h3>
+                    <button class="overlay__btn" id="signUp">REGISTRATE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
