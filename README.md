@@ -1,4 +1,4 @@
-# CARD
+# FORM V2
 
 Form Login y registro V2
 ![Alt text](image/formV2.png "formulario login y registro")
