@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(image/background.jpg) fixed center;
+    background: url(image/back.png) fixed center;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -164,7 +164,7 @@ body {
 /*overlay*/
 
 .overlay {
-    background: url(image/background.jpg) fixed center;
+    background: url(image/back.png) fixed center;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -175,25 +175,20 @@ body {
     width: 200%;
 }
 
-.overlay__title {
-    color: rgba(0, 0, 0, .87);
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
 .overlay__btn {
-    background-image: linear-gradient( 109.6deg, rgba(48, 207, 208, 1) 11.2%, rgba(51, 8, 103, 1) 92.5%);
+    background-color: #fff;
     outline: none;
     border: none;
     border-radius: 50px;
     box-shadow: 0 0 0 2px rgb(0, 0, 0, .05);
-    padding: 8px 50px;
-    color: #fff;
+    padding: 8px 20px;
+    color: rgba(0, 0, 0, .87);
     cursor: pointer;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 10px;
     transition: all .3s ease;
+    text-decoration: none;
 }
 
 .overlay__btn:hover {
